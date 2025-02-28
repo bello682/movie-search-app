@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { message } from "antd";
-import MovieCard from "./components/MovieCard";
+import { message, Spin } from "antd";
+import MovieCard from "./movieCard";
 import SearchIconSvg from "./assets/search.svg";
 import { searchMovies } from "./ApiActions/searchMovies";
 
